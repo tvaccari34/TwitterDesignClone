@@ -96,6 +96,8 @@ header#main-header div.side button {
 }
 
 div.banner {
+    display: flex;
+    flex-direction: column;
     height: 380px;
     width: 100%;
     background: #3bb9e3;
@@ -104,6 +106,15 @@ div.banner {
     align-items: center;
     justify-content: center;
     color: #FFF;
+}
+
+span.title {
+    font-size: 30px;
+}
+
+span.subtitle {
+    font-size: 18px;
+    margin-top: 30px;
 }
 
 div.bar {
@@ -179,4 +190,108 @@ div.bar .content .actions button {
     color: #3bb9e3;
     font-weight: bold;
     margin-right: 20px;
+}
+
+div.wrapper-content {
+    display: flex;
+}
+
+div.wrapper-content aside.profile {
+    width: 260px;
+}
+
+div.wrapper-content aside.profile img.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    margin-top: -130px;
+}
+
+div.wrapper-content aside.profile h1 {
+    font-size: 21px;
+    color: #1f2226;
+    margin-top: 10px;
+}
+
+div.wrapper-content aside.profile span {
+    font-size: 14px;
+    color: #53626C;
+}
+
+div.wrapper-content aside.profile p {
+    font-size: 14px;
+    color: #1f2226;
+    margin-top: 15px;
+}
+
+div.wrapper-content aside.profile ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+div.wrapper-content aside.profile ul.list li {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #53626C;
+}
+
+div.wrapper-content aside.profile ul.list li:first-child {
+    margin: 0;
+}
+
+div.wrapper-content aside.profile ul.list li img {
+    margin-right: 10px;
+}
+
+div.wrapper-content aside.profile .widget {
+    margin-top: 20px;
+}
+
+div.wrapper-content aside.profile .widget strong {
+    font-weight: normal;
+    color: #3bb9e3;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+div.wrapper-content aside.profile .widget strong img {
+    margin-right: 10px;
+}
+
+div.wrapper-content aside.profile .followers ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+div.wrapper-content aside.profile .followers li {
+    width: 45px;
+    height: 45px;
+    background: #D0D5D9;
+    border-radius: 50%;
+    flex: 1 0 auto;
+    margin: 0 5px 5px 0;
+}
+
+div.wrapper-content aside.profile .images ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+div.wrapper-content aside.profile .images li {
+    width: 80px;
+    height: 80px;
+    background: #D0D5D9;
+    border-radius: 8%;
+    flex: 1 0 auto;
+    margin: 0 5px 5px 0;
 }
