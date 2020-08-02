@@ -67,7 +67,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@vaccari_tiago](https://twitter.com/vaccari_tiago) - email@example.com
+Your Name - [@vaccari_tiago](https://twitter.com/vaccari_tiago)
 
 Project Link: [https://github.com/tvaccari34/TwitterDesignClone](https://github.com/tvaccari34/TwitterDesignClone)
 
